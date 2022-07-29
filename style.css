@@ -254,8 +254,8 @@ a {
   position: absolute;
   width: 30%;
   height: 50%;
-  left: 936px;
-  top: 1725.99px;
+  left: 944px;
+  top: 1741.99px;
   border-radius: 0 0 40px 0;
 }
 
@@ -277,6 +277,7 @@ a {
   height: 50px;
   text-align: center;
   font: 400 24px/34px 'Monserrrat', sans-serif;
+  padding-top: 15px;
 }
 
 .roles__title_designer {
