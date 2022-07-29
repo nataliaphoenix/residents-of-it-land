@@ -252,8 +252,8 @@ a {
 
 .game-img {
   position: absolute;
-  width: 500px;
-  height: 500px;
+  width: 30%;
+  height: 50%;
   left: 936px;
   top: 1725.99px;
   border-radius: 0 0 40px 0;
