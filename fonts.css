@@ -13,3 +13,11 @@
   font-weight: 700;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Monserrat';
+  src: url(fonts/Montserrat-Medium.woff) format('woff'),
+        url(fonts/Montserrat-Medium.woff2) format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}

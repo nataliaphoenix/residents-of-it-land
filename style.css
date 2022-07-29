@@ -25,6 +25,62 @@ a {
   padding-top: 20px;
 }
 
+.pic-detail-1 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 980px;
+  top: 60px;
+}
+
+.pic-detail-2 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 592.41px;
+  top: 71.89px;
+}
+
+.pic-detail-3 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 177.01px;
+  top: 218.58px;
+}
+
+.pic-detail-4 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 1280.96px;
+  top: 116px;
+}
+
+.pic-detail-5 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 297.65px;
+  top: 767.87px;
+}
+
+.pic-detail-6 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 1295.53px;
+  top: 766.96px;
+}
+
+.pic-detail-7 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 62.52px;
+  top: 833px;
+}
+
 .logo__title {
   color: #2C4450;
   font: 400 16px/19px 'Monserrat', sans-serif;
