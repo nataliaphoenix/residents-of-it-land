@@ -248,15 +248,20 @@ a {
 
 .game-about__steps-list {
   list-style-type: none;
+
 }
 
 .game-img {
   position: absolute;
   width: 30%;
-  height: 50%;
+  height: 55%;
   left: 944px;
-  top: 1741.99px;
+  top: 1770.99px;
   border-radius: 0 0 40px 0;
+}
+
+.steps-list__item {
+  margin-bottom: 15px;
 }
 
 .section__roles {
@@ -299,6 +304,7 @@ a {
   color: #2C4450;
   font: 400 20px/27px 'Monserrat', sans-serif;
   margin-bottom: 20px;
+  height: 255px;
 }
 
 .roles__btn {
