@@ -4,10 +4,14 @@ body {
   font-family: 'Monserrat', sans-serif;
 }
 
-/* .wrapper-frame {
+a {
+  text-decoration: none;
+}
+
+.wrapper-frame {
   width: 1440px;
   margin: 0 auto;
-} */
+}
 
 .wrapper {
   width: 90%;
@@ -32,9 +36,13 @@ body {
 
 .logo__title-pic {
   position:absolute;
-  left: 140px;
-  top: 8px;
+  left: 173px;
+  top: 22px;
   z-index: -1;
+}
+
+.menu {
+  padding-top: 15px;
 }
 
 .menu__item {
@@ -45,6 +53,10 @@ body {
 
 .menu__item:last-child {
   margin-right: 0;
+}
+
+.menu__button {
+  margin-top: 15px;
 }
 
 .menu__button_try {
@@ -69,12 +81,12 @@ body {
 }
 
 .main__section-list {
-  width: 80%;
   display: flex;
+  justify-content: center;
 }
 
 .main__section-item {
-  padding: 16px 43px;
+  padding: 10px 10px;
   width: 306px;
   border: 3px solid #9DD046;
   border-radius: 40px;
@@ -97,12 +109,12 @@ body {
   height: 131px;
   background: #F5F1ED;
   border-radius: 40px;
-  align-content: center; 
   margin: 0 auto;
   color: #2C4450;
 }
 
 .section-add__text {
+  width: 350px;
   margin: 0 66px;
   padding-top: 41px;
   font: 400 20px/25px 'Monserrat', sans-serif;
@@ -111,10 +123,18 @@ body {
 .section-add__button {
   background: #9DD046;
   border-radius: 40px;
-  padding: 20px 53px;
   color: #F5F1ED;
-  margin-left: 60%;
+  /* margin-left: 60%; */
   font: 500 20px/25px 'Monserrat', sans-serif;
+  padding: 20px 53px;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-ites: center;
+  gap: 10px; */
+  position: absolute;
+  left: 770px;
+  top: 875px;
 }
 
 .section__game-about {
@@ -170,6 +190,19 @@ body {
   font: 400 20px/29px 'Monserrat', sans-serif;
 }
 
+.game-about__steps-list {
+  list-style-type: none;
+}
+
+.game-img {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 936px;
+  top: 1725.99px;
+  border-radius: 0 0 40px 0;
+}
+
 .section__roles {
   margin-top: 90px;
 }
@@ -203,8 +236,6 @@ body {
 }
 
 .roles__desc {
-  width: 305px;
-  height: 255px;
   background: #F5F1ED;
   border-radius: 40px;
   padding: 15px 20px;
@@ -225,4 +256,5 @@ body {
   border-radius: 40px;
   padding: 14px 101px;
   font: 500 22px/31px 'Monserrat', sans-serif;
+  margin-bottom: 100px;
 }
