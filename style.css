@@ -27,10 +27,9 @@ a {
 
 .pic-detail-1 {
   position: absolute;
-  width: 80px;
-  height: 80px;
   left: 980px;
-  top: 60px;
+  top: 0;
+  transform: rotate(320deg);
 }
 
 .pic-detail-2 {
@@ -39,6 +38,7 @@ a {
   height: 60px;
   left: 592.41px;
   top: 71.89px;
+
 }
 
 .pic-detail-3 {
